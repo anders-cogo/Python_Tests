@@ -8,7 +8,7 @@
 import psycopg2
 
 try:
-    conn = psycopg2.connect("dbname='Alex' user='anders' host=alexpg' password='kR!mtrl0'")
+    conn = psycopg2.connect("dbname='Alex' user='anders' host=alexpg' password=''")
 except:
     print "I am unable to connect to the database"
 
