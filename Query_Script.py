@@ -2,7 +2,7 @@
 #09/30/2015
 #Write a script that executes a SQL query on the EDS database
 
-import psychopg2
+import psycopg2
 import sys, os
 from cryptography.fernet import FERNET
 os.chdir("/Users/anders/Documents/Learning/Python/Python_Tests")
