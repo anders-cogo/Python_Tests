@@ -4,7 +4,7 @@
 
 import psycopg2
 import sys, os
-from cryptography.fernet import FERNET
+from cryptography.fernet import Fernet
 os.chdir("/Users/anders/Documents/Learning/Python/Python_Tests")
 
 def sql_call():
